@@ -10,26 +10,28 @@
         body{
             font: normal 25px arial;
             margin: 2rem
+            
         }
     </style>
 </head>
-<body>
+    <body>
     
-    <script>
-            // FORMATANDO A STRING
-        var nome = window.prompt('Qual é seu nome?')
-        var idade = window.prompt('Qual sua idade?')
-        var trabalho = window.prompt('Onde você trabalha?')
-        var hobby = window.prompt('Escreva seu hobby favorito:')
-        var livro = window.prompt('Digite um livro que muito gosta:')
-        document.write(`${nome}, seu nome tem ${nome.length} caracteres.<br/>`)
-        document.write(`O seu nome em minusculo é: ${nome.toLowerCase()}. E em maiúsculo é: ${nome.toUpperCase()} <br/>`) 
-        document.write(`${nome}, você tem ${idade} anos de vida. <br/>`)
-        document.write(`${trabalho} é um ótimo lugar para se trabalhar. <br/>`)
-        document.write(`${hobby}!! Que legal este seu hobbie, ${nome}!<br/>`)
-        document.write(`Estou impressionado que seja: ${livro}!! Que super!! Indique para mais pessoas esse livro! E não se esqueça de ${hobby.toLowerCase()} mais vezes. <br/>`)
-        
-    </script>
+            <script>
+                    // Manipulando STRINGS
+                var nome = window.prompt('Qual é seu nome?')
+                var ano = window.prompt('Qual o ano que voce nasceu?')
+                var trabalho = window.prompt('Onde você trabalha?')
+                var hobby = window.prompt('Escreva seu hobby favorito:')
+                var livro = window.prompt('Digite um livro que muito gosta:')
+                
+                document.write(`${nome}, seu nome têm ${nome.length} caracteres.<br/>`)
+                document.write(`O seu nome em minúsculo é: ${nome.toLowerCase()}. E em maiúsculo é: ${nome.toUpperCase()} <br/>`) 
+                document.write(`${nome}, sua idade é: ${2021 - ano} anos!!!<br/>`)
+                document.write(`${trabalho} é um ótimo lugar para se trabalhar. <br/>`)
+                document.write(`${hobby}!! Que legal este seu hobbie, ${nome}!<br/>`)
+                document.write(`Estou impressionado que o livro escolhido seja: ${livro}!! Que super!! Indique para mais pessoas esse livro! E não se esqueça de ${hobby.toLowerCase()} mais vezes. <br/>`)
+                
+            </script>
 
-    </body>
+     </body>
 </html>
