@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(84, 2, 2, 0.807);
+    font: normal 20px sans-serif;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+input:last-child{
+    width: 70px;
+    outline-style: none;
+    border-radius: 0.5rem;
+    border:rgba(84, 2, 2, 0.807) 3px solid;
+    box-shadow: 1px 1px 2px black;
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+section{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 15px;
+    width: 70vh;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.634);
+   
+}
+
+img#imagem{
+    width: 200px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
