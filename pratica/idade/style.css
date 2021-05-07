@@ -1,21 +1,28 @@
 body{
-    background-color: rgba(84, 2, 2, 0.807);
+    background-color: rgba(0, 0, 0, 0.807);
     font: normal 20px sans-serif;
-
+    color: rgb(255, 255, 255);
 }
 
 header{
-    color: white;
+    color:gold;
+    text-shadow: 3px 3px 8px black;
     text-align: center;
 
 }
 
 input:last-child{
-    width: 70px;
+    background-color: transparent;
+    color: white;
+    width: 65px;
     outline-style: none;
     border-radius: 0.5rem;
-    border:rgba(84, 2, 2, 0.807) 3px solid;
-    box-shadow: 1px 1px 2px black;
+    border:goldenrod 2px solid;
+    box-shadow: 1px 1px 1px rgba(251, 251, 140, 0.655);
+}
+
+input.ver{
+    margin-left: 6rem;
 }
 
 
@@ -29,25 +36,31 @@ input[type=number] {
 }
 
 section{
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.945);
+    color: rgb(255, 255, 255);
     border-radius: 2rem;
     padding: 15px;
     width: 70vh;
     margin: auto;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.634);
+    box-shadow: 5px 5px 4px rgba(251, 251, 140, 0.655);
    
 }
 
 img#imagem{
     width: 200px;
     height: 150px;
-    border-radius: 100%;
+    border-radius: 20%;
     display: flex;
     margin: auto;
+    
 }
 
 footer{
-    color: white;
+    color: gold;
     text-align: center;
     font-style: italic;
 }
