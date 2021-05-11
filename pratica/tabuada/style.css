@@ -1,0 +1,71 @@
+body{
+    background-color: #202024;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+
+}
+label{
+    color: #fff;
+}
+input[type="number" i] {
+    color: white;
+    background-color:#202024;
+    padding: 1px 2px;
+    outline-style: none; /* retira a borda do input */ 
+    
+}
+input[type="button" i]{
+    color: white;
+    background-color:#202024;
+    border-style: inset;
+    outline-style: none;
+}
+
+select{
+    color: white;
+    font-size: 16px;
+    background-color: #202024 ;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    border-radius: 5%;
+    overflow: hidden;
+    outline-style: none;
+    padding: 0.4rem;
+    
+}
+
+section{
+   
+    background-color: #8257E6;
+    border-radius: 2rem;
+    padding: 15px;
+    width: 70vh;
+    height: 50vh;
+    margin: auto;
+    box-shadow: 4px 4px 10px #202024;
+   
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Abaixo retira as setas do input number */
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
