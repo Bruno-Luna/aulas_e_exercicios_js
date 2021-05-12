@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(255, 0, 0, 0.641);
+    font: normal 20px sans-serif;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 2rem;
+    width: 70vh;
+    height: 70%;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.586);
+    padding: 1rem;
+}
+#numinit{
+    margin-bottom: 1rem;
+}
+
+#numfim{
+    margin-bottom: 1rem;
+}
+
+#numpass{
+    margin-bottom: 1rem;
+}
+#res{
+    margin-top: 1rem;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
