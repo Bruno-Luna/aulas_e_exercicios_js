@@ -25,11 +25,11 @@
         rank = 'D'
       } else if (nota >= 50 && nota <= 59) {
         rank = 'E'
-      } else if (nota >= 0 && nota < 50) {
+      } else if (nota > -1 && nota < 50) {
         rank = 'F'
       }
       else {
-        rank = 'SSS'
+         alert('[ERRO] Digite um valor válido.')
       }
       
       document
