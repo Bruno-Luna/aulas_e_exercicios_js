@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(255, 200, 0, 0.883);
+    font: normal 20px sans-serif;
+
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+section{
+    color: rgba(255, 200, 0, 0.883);
+    background-color: rgba(0, 0, 0, 0.924);
+    border-radius: 2rem;
+    padding-top: 30px;
+    width: 80vh;
+    height: 40vh;
+    text-align: center;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.883);
+    font-weight: 700;
+   
+}
+.altura{
+    padding-left: 18px;
+}
+
+input{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    width: 80px; 
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+input:first-child{
+    width: 100px;
+    font-weight: 700;
+    background-color: ;
+}
+
+input:nth-child(1){
+    width: 100px;
+    
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
